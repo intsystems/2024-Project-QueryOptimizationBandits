@@ -1,0 +1,116 @@
+@article{bao,
+  title      = "Bao: Making learned query optimization practical",
+  booktitle  = "Proceedings of the 2021 International Conference on Management
+                of Data",
+  author     = "Marcus, Ryan and Negi, Parimarjan and Mao, Hongzi and Tatbul,
+                Nesime and Alizadeh, Mohammad and Kraska, Tim",
+  publisher  = "ACM",
+  month      =  jun,
+  year       =  2021,
+  address    = "New York, NY, USA",
+  copyright  = "http://www.acm.org/publications/policies/copyright\_policy\#Background",
+  conference = "SIGMOD/PODS '21: International Conference on Management of Data",
+  location   = "Virtual Event China"
+}
+
+@article{other-solution,
+  title     = "Optimal query selection using multi-armed bandits",
+  author    = "Ko{\c c}anao{\u g}ullar{\i}, Aziz and Marghi, Yeganeh M and
+               Ak{\c c}akaya, Murat and Erdo{\u g}mu{\c s}, Deniz",
+  abstract  = "Query selection for latent variable estimation is conventionally
+               performed by opting for observations with low noise or
+               optimizing information theoretic objectives related to reducing
+               the level of estimated uncertainty based on the current best
+               estimate. In these approaches, typically the system makes a
+               decision by leveraging the current available information about
+               the state. However, trusting the current best estimate results
+               in poor query selection when truth is far from the current
+               estimate, and this negatively impacts the speed and accuracy of
+               the latent variable estimation procedure. We introduce a novel
+               sequential adaptive action value function for query selection
+               using the multi-armed bandit (MAB) framework which allows us to
+               find a tractable solution. For this adaptive-sequential query
+               selection method, we analytically show: (i) performance
+               improvement in the query selection for a dynamical system, (ii)
+               the conditions where the model outperforms competitors. We also
+               present favorable empirical assessments of the performance for
+               this method, compared to alternative methods, both using Monte
+               Carlo simulations and human-in-the-loop experiments with a brain
+               computer interface (BCI) typing system where the language model
+               provides the prior information.",
+  journal   = "IEEE Signal Process. Lett.",
+  publisher = "Institute of Electrical and Electronics Engineers (IEEE)",
+  volume    =  25,
+  number    =  12,
+  pages     = "1870--1874",
+  month     =  dec,
+  year      =  2018,
+  keywords  = "Misleading prior; Multi-armed bandit framework; Query
+               optimization; Subset selection",
+  copyright = "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html",
+  language  = "en"
+}
+
+@article{base-of-problem,
+  title     = "Query optimization in database systems",
+  author    = "Jarke, Matthias and Koch, Jurgen",
+  abstract  = "Efficient methods of processing unanticipated queries are a
+               crucial prerequisite for the success of generalized database
+               management systems. A wide variety of approaches to improve the
+               performance of query evaluation algorithms have been proposed:
+               logic-based and semantic transformations, fast implementations
+               of basic operations, and combinatorial or heuristic algorithms
+               for generating alternative access plans and choosing among them.
+               These methods are presented in the framework of a general query
+               evaluation procedure using the relational calculus
+               representation of queries. In addition, nonstandard query
+               optimization issues such as higher level query evaluation, query
+               optimization in distributed databases, and use of database
+               machines are addressed. The focus, however, is on query
+               optimization in centralized database systems.",
+  journal   = "ACM Comput. Surv.",
+  publisher = "Association for Computing Machinery (ACM)",
+  volume    =  16,
+  number    =  2,
+  pages     = "111--152",
+  month     =  jun,
+  year      =  1984,
+  language  = "en"
+}
+
+@book{bandit-intro,
+  title         = "Introduction to {Multi-Armed} Bandits",
+  author        = "Slivkins, Aleksandrs",
+  abstract      = "Multi-armed bandits a simple but very powerful framework for
+                   algorithms that make decisions over time under uncertainty.
+                   An enormous body of work has accumulated over the years,
+                   covered in several books and surveys. This book provides a
+                   more introductory, textbook-like treatment of the subject.
+                   Each chapter tackles a particular line of work, providing a
+                   self-contained, teachable technical introduction and a brief
+                   review of the further developments; many of the chapters
+                   conclude with exercises. The book is structured as follows.
+                   The first four chapters are on IID rewards, from the basic
+                   model to impossibility results to Bayesian priors to
+                   Lipschitz rewards. The next three chapters cover adversarial
+                   rewards, from the full-feedback version to adversarial
+                   bandits to extensions with linear rewards and
+                   combinatorially structured actions. Chapter 8 is on
+                   contextual bandits, a middle ground between IID and
+                   adversarial bandits in which the change in reward
+                   distributions is completely explained by observable
+                   contexts. The last three chapters cover connections to
+                   economics, from learning in repeated games to bandits with
+                   supply/budget constraints to exploration in the presence of
+                   incentives. The appendix provides sufficient background on
+                   concentration and KL-divergence. The chapters on ``bandits
+                   with similarity information'', ``bandits with knapsacks''
+                   and ``bandits and agents'' can also be consumed as
+                   standalone surveys on the respective topics.",
+  month         =  apr,
+  year          =  2019,
+  copyright     = "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.LG",
+  eprint        = "1904.07272"
+}
