@@ -1,0 +1,1130 @@
+Read 40 queries.
+Using Bao: True
+Executing queries using PG optimizer for initial training
+x x 1747414143.6347713 sample_queries/q33_2a156.sql 0.6570067405700684 PG
+x x 1747414149.2255 sample_queries/q11_17e.sql 5.5906829833984375 PG
+x x 1747414149.3125346 sample_queries/q20_24b.sql 0.08699774742126465 PG
+x x 1747414153.7703624 sample_queries/q18_7a103.sql 4.457787752151489 PG
+x x 1747414160.6082351 sample_queries/q37_2a1291.sql 6.837833404541016 PG
+x x 1747414162.3737822 sample_queries/q35_1a1508.sql 1.765507698059082 PG
+x x 1747414170.6845598 sample_queries/q5_8a423.sql 8.310736179351807 PG
+x x 1747414171.63351 sample_queries/q13_7a121.sql 0.9489030838012695 PG
+x x 1747414172.5960066 sample_queries/q25_13d.sql 0.9624583721160889 PG
+x x 1747414178.224009 sample_queries/q11_17e.sql 5.627964496612549 PG
+x x 1747414182.6974041 sample_queries/q18_7a103.sql 4.473354339599609 PG
+x x 1747414182.7583437 sample_queries/q29_6e.sql 0.06090044975280762 PG
+x x 1747414188.2732532 sample_queries/q11_17e.sql 5.514863014221191 PG
+x x 1747414190.1709359 sample_queries/q17_7a164.sql 1.897643804550171 PG
+x x 1747414190.8304882 sample_queries/q33_2a156.sql 0.659515380859375 PG
+x x 1747414231.4503427 sample_queries/q2_8a82.sql 40.61981439590454 PG
+x x 1747414235.8499434 sample_queries/q18_7a103.sql 4.399552822113037 PG
+x x 1747414236.4197154 sample_queries/q31_2a39.sql 0.569732666015625 PG
+x x 1747414238.207707 sample_queries/q3_7a99.sql 1.7879536151885986 PG
+x x 1747414241.7206075 sample_queries/q10_2a265.sql 3.5128631591796875 PG
+x x 1747414243.4733856 sample_queries/q3_7a99.sql 1.7527213096618652 PG
+x x 1747414245.2264977 sample_queries/q35_1a1508.sql 1.7530763149261475 PG
+x x 1747414270.2842069 sample_queries/q22_8a27.sql 25.057661771774292 PG
+x x 1747414271.1477113 sample_queries/q16_26c.sql 0.8634552955627441 PG
+x x 1747414276.0520065 sample_queries/q8_6a505.sql 4.9042558670043945 PG
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.08687675081080559
+Epoch 15 training loss: 0.01129982708671102
+Epoch 30 training loss: 0.006690677079005223
+Epoch 45 training loss: 0.006553711433132941
+Stopped training from convergence condition at epoch 45
+Validation score: 7.285
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.05373359550580834
+Epoch 15 training loss: 0.0054518800523400196
+Stopped training from convergence condition at epoch 21
+Validation score: 6.273
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.042495143726806746
+Epoch 15 training loss: 0.004560287041716616
+Stopped training from convergence condition at epoch 28
+Validation score: 5.321
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.023100703644255798
+Epoch 15 training loss: 0.005147607541981746
+Stopped training from convergence condition at epoch 15
+Validation score: 4.236
+Training took 22676 ms
+Best parameters: lr 0.0001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+0 0 1747414302.770713 sample_queries/q22_8a27.sql 2.645162343978882
+0 1 1747414303.86569 sample_queries/q13_7a121.sql 1.0949323177337646
+0 2 1747414304.898544 sample_queries/q13_7a121.sql 1.03281569480896
+0 3 1747414310.1932368 sample_queries/q40_2a8120.sql 5.294650316238403
+0 4 1747414310.4550178 sample_queries/q32_2a493.sql 0.26174116134643555
+0 5 1747414313.4783435 sample_queries/q3_7a99.sql 3.0232882499694824
+0 6 1747414320.3690107 sample_queries/q37_2a1291.sql 6.8906261920928955
+0 7 1747414323.8858323 sample_queries/q2_8a82.sql 3.5167763233184814
+0 8 1747414326.0852733 sample_queries/q8_6a505.sql 2.1994030475616455
+0 9 1747414326.2931573 sample_queries/q24_32a.sql 0.20784401893615723
+0 10 1747414328.1218464 sample_queries/q30_18c.sql 1.8286497592926025
+0 11 1747414333.3362606 sample_queries/q40_2a8120.sql 5.214375257492065
+0 12 1747414333.5996733 sample_queries/q32_2a493.sql 0.26337265968322754
+0 13 1747414334.859506 sample_queries/q4_8a122.sql 1.2597930431365967
+0 14 1747414335.4492834 sample_queries/q31_2a39.sql 0.589735746383667
+0 15 1747414338.7306254 sample_queries/q36_7a136.sql 3.2812891006469727
+0 16 1747414340.8163426 sample_queries/q11_17e.sql 2.085676670074463
+0 17 1747414347.6386337 sample_queries/q19_2a471.sql 6.822236061096191
+0 18 1747414347.826284 sample_queries/q20_24b.sql 0.18761229515075684
+0 19 1747414348.9184813 sample_queries/q13_7a121.sql 1.092151403427124
+0 20 1747414355.7402077 sample_queries/q19_2a471.sql 6.821690559387207
+0 21 1747414358.5492258 sample_queries/q14_6a349.sql 2.8089795112609863
+0 22 1747414358.744578 sample_queries/q20_24b.sql 0.1953141689300537
+0 23 1747414359.4634175 sample_queries/q33_2a156.sql 0.7188034057617188
+0 24 1747414362.1348531 sample_queries/q23_19d.sql 2.671398401260376
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.07134031898209027
+Epoch 15 training loss: 0.007262243099311101
+Epoch 30 training loss: 0.004470722566890929
+Stopped training from convergence condition at epoch 31
+Validation score: 6.070
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.042698011480804
+Epoch 15 training loss: 0.0056932968120755895
+Epoch 30 training loss: 0.003703165609788682
+Stopped training from convergence condition at epoch 36
+Validation score: 9.259
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.07647857908159494
+Epoch 15 training loss: 0.005191176795467202
+Stopped training from convergence condition at epoch 21
+Validation score: 5.435
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.01820793419278094
+Epoch 15 training loss: 0.004844495542680047
+Stopped training from convergence condition at epoch 26
+Validation score: 4.652
+Training took 25968 ms
+Best parameters: lr 0.0001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+1 0 1747414390.5692434 sample_queries/q23_19d.sql 2.543207883834839
+1 1 1747414391.2702622 sample_queries/q18_7a103.sql 0.7009804248809814
+1 2 1747414397.680133 sample_queries/q1_8a463.sql 6.409832239151001
+1 3 1747414399.3607218 sample_queries/q7_7a48.sql 1.6805436611175537
+1 4 1747414400.0667627 sample_queries/q33_2a156.sql 0.7059855461120605
+1 5 1747414400.3337002 sample_queries/q32_2a493.sql 0.26689958572387695
+1 6 1747414401.2478378 sample_queries/q16_26c.sql 0.9140980243682861
+1 7 1747414408.1499348 sample_queries/q37_2a1291.sql 6.90205979347229
+1 8 1747414409.0226994 sample_queries/q16_26c.sql 0.8727262020111084
+1 9 1747414409.2421489 sample_queries/q24_32a.sql 0.21939992904663086
+1 10 1747414414.9901023 sample_queries/q9_5a48.sql 5.747912883758545
+1 11 1747414415.7006483 sample_queries/q33_2a156.sql 0.7105088233947754
+1 12 1747414417.7004018 sample_queries/q30_18c.sql 1.9997146129608154
+1 13 1747414419.4782968 sample_queries/q35_1a1508.sql 1.7778592109680176
+1 14 1747414424.6822665 sample_queries/q40_2a8120.sql 5.203932523727417
+1 15 1747414430.556946 sample_queries/q39_2a2781.sql 5.874632120132446
+1 16 1747414437.3002772 sample_queries/q19_2a471.sql 6.743293285369873
+1 17 1747414439.4142575 sample_queries/q11_17e.sql 2.1139414310455322
+1 18 1747414439.9096053 sample_queries/q21_2a396.sql 0.49530959129333496
+1 19 1747414442.372282 sample_queries/q1_8a463.sql 2.462636947631836
+1 20 1747414444.5942485 sample_queries/q18_7a103.sql 2.221912384033203
+1 21 1747414445.9638362 sample_queries/q7_7a48.sql 1.3695485591888428
+1 22 1747414446.6022375 sample_queries/q5_8a423.sql 0.6383616924285889
+1 23 1747414447.090956 sample_queries/q21_2a396.sql 0.4886791706085205
+1 24 1747414451.056316 sample_queries/q34_1a275.sql 3.9653213024139404
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.06376551991949479
+Epoch 15 training loss: 0.010098709750713574
+Epoch 30 training loss: 0.005520584727896171
+Stopped training from convergence condition at epoch 44
+Validation score: 17.912
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.05403210282222264
+Epoch 15 training loss: 0.004860560574646418
+Stopped training from convergence condition at epoch 26
+Validation score: 9.158
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.052097816641132035
+Epoch 15 training loss: 0.004628824695828371
+Epoch 30 training loss: 0.003803572362004262
+Epoch 45 training loss: 0.003444770652600305
+Epoch 60 training loss: 0.0016155691337189637
+Stopped training from convergence condition at epoch 65
+Validation score: 9.224
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.0220329097743767
+Epoch 15 training loss: 0.005072860043987425
+Epoch 30 training loss: 0.0037434674789741016
+Stopped training from convergence condition at epoch 33
+Validation score: 4.820
+Training took 37056 ms
+Best parameters: lr 0.0001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+2 0 1747414489.7514813 sample_queries/q24_32a.sql 0.24205422401428223
+2 1 1747414492.539731 sample_queries/q6_16b.sql 2.7882120609283447
+2 2 1747414492.820032 sample_queries/q27_3c.sql 0.28026390075683594
+2 3 1747414495.3003101 sample_queries/q1_8a463.sql 2.480241537094116
+2 4 1747414502.3763356 sample_queries/q19_2a471.sql 7.075989484786987
+2 5 1747414504.2955577 sample_queries/q30_18c.sql 1.9191839694976807
+2 6 1747414505.2841852 sample_queries/q1_8a463.sql 0.9885900020599365
+2 7 1747414505.8825657 sample_queries/q31_2a39.sql 0.5983438491821289
+2 8 1747414508.0309668 sample_queries/q5_8a423.sql 2.1483640670776367
+2 9 1747414508.2439606 sample_queries/q24_32a.sql 0.2129514217376709
+2 10 1747414510.4882705 sample_queries/q18_7a103.sql 2.2442169189453125
+2 11 1747414513.431318 sample_queries/q9_5a48.sql 2.9429931640625
+2 12 1747414513.4955087 sample_queries/q29_6e.sql 0.06415343284606934
+2 13 1747414514.7246606 sample_queries/q13_7a121.sql 1.2291128635406494
+2 14 1747414516.8065376 sample_queries/q11_17e.sql 2.081836223602295
+2 15 1747414519.963599 sample_queries/q14_6a349.sql 3.1570241451263428
+2 16 1747414520.6893723 sample_queries/q33_2a156.sql 0.7257366180419922
+2 17 1747414526.859906 sample_queries/q39_2a2781.sql 6.170496702194214
+2 18 1747414527.8957458 sample_queries/q25_13d.sql 1.0358006954193115
+2 19 1747414529.785853 sample_queries/q12_17a.sql 1.8900656700134277
+2 20 1747414530.0198739 sample_queries/q24_32a.sql 0.23398256301879883
+2 21 1747414532.9837177 sample_queries/q9_5a48.sql 2.963805913925171
+2 22 1747414534.8888617 sample_queries/q2_8a82.sql 1.905104398727417
+2 23 1747414537.098429 sample_queries/q8_6a505.sql 2.2095248699188232
+2 24 1747414538.2208521 sample_queries/q4_8a122.sql 1.1223857402801514
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.1132810222916305
+Epoch 15 training loss: 0.013709317353603086
+Epoch 30 training loss: 0.006624924806314276
+Epoch 45 training loss: 0.005116663844091818
+Stopped training from convergence condition at epoch 50
+Validation score: 17.458
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.06633717846125364
+Epoch 15 training loss: 0.004426844713682505
+Epoch 30 training loss: 0.0031616477981994025
+Epoch 45 training loss: 0.0013120361154984781
+Stopped training from convergence condition at epoch 53
+Validation score: 2.320
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.05272854648922619
+Epoch 15 training loss: 0.005414232234838174
+Stopped training from convergence condition at epoch 26
+Validation score: 6.212
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.02955265659348745
+Epoch 15 training loss: 0.004865322304938577
+Stopped training from convergence condition at epoch 24
+Validation score: 4.757
+Training took 35281 ms
+Best parameters: lr 0.001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+3 0 1747414576.4428658 sample_queries/q10_2a265.sql 1.4521567821502686
+3 1 1747414579.6805358 sample_queries/q36_7a136.sql 3.2376232147216797
+3 2 1747414581.6720135 sample_queries/q35_1a1508.sql 1.9914400577545166
+3 3 1747414585.138964 sample_queries/q2_8a82.sql 3.4669089317321777
+3 4 1747414587.584866 sample_queries/q1_8a463.sql 2.4458553791046143
+3 5 1747414588.3026247 sample_queries/q33_2a156.sql 0.7177188396453857
+3 6 1747414589.6164637 sample_queries/q14_6a349.sql 1.3137974739074707
+3 7 1747414592.656925 sample_queries/q26_2a274.sql 3.04042387008667
+3 8 1747414592.9340508 sample_queries/q27_3c.sql 0.2770869731903076
+3 9 1747414595.2134767 sample_queries/q8_6a505.sql 2.2793877124786377
+3 10 1747414597.414704 sample_queries/q5_8a423.sql 2.201188325881958
+3 11 1747414599.8369362 sample_queries/q1_8a463.sql 2.42219614982605
+3 12 1747414599.9033413 sample_queries/q29_6e.sql 0.06636548042297363
+3 13 1747414600.7477996 sample_queries/q17_7a164.sql 0.8444187641143799
+3 14 1747414614.1614153 sample_queries/q6_16b.sql 13.413574934005737
+3 15 1747414615.27465 sample_queries/q4_8a122.sql 1.1131813526153564
+3 16 1747414615.4646957 sample_queries/q20_24b.sql 0.19000697135925293
+3 17 1747414616.182958 sample_queries/q33_2a156.sql 0.718224287033081
+3 18 1747414616.4473605 sample_queries/q32_2a493.sql 0.26436352729797363
+3 19 1747414617.3250828 sample_queries/q16_26c.sql 0.8776788711547852
+3 20 1747414622.5765998 sample_queries/q38_2a1870.sql 5.251474857330322
+3 21 1747414626.0563543 sample_queries/q2_8a82.sql 3.4797146320343018
+3 22 1747414632.0697868 sample_queries/q39_2a2781.sql 6.01339316368103
+3 23 1747414635.4688232 sample_queries/q2_8a82.sql 3.3989973068237305
+3 24 1747414636.87635 sample_queries/q10_2a265.sql 1.4074780941009521
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.0731972562673036
+Epoch 15 training loss: 0.006948352903918931
+Epoch 30 training loss: 0.00485596639191499
+Stopped training from convergence condition at epoch 40
+Validation score: 4.034
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.03049487966345623
+Epoch 15 training loss: 0.004035252202447737
+Stopped training from convergence condition at epoch 22
+Validation score: 4.508
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.03977252184413373
+Epoch 15 training loss: 0.005517652343405644
+Epoch 30 training loss: 0.004619185121555347
+Stopped training from convergence condition at epoch 34
+Validation score: 6.537
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.06819526120088995
+Epoch 15 training loss: 0.004925899763475172
+Stopped training from convergence condition at epoch 20
+Validation score: 4.729
+Training took 27700 ms
+Best parameters: lr 0.01
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+4 0 1747414669.2847617 sample_queries/q21_2a396.sql 3.2572360038757324
+4 1 1747414672.950825 sample_queries/q10_2a265.sql 3.666024684906006
+4 2 1747414688.876271 sample_queries/q7_7a48.sql 15.925405025482178
+4 3 1747414691.2677035 sample_queries/q5_8a423.sql 2.3913846015930176
+4 4 1747414698.0449362 sample_queries/q40_2a8120.sql 6.777194976806641
+4 5 1747414701.2677991 sample_queries/q21_2a396.sql 3.22282338142395
+4 6 1747414703.1034749 sample_queries/q12_17a.sql 1.8356351852416992
+4 7 1747414703.744645 sample_queries/q5_8a423.sql 0.6411323547363281
+4 8 1747414705.427184 sample_queries/q7_7a48.sql 1.6824982166290283
+4 9 1747414706.6375718 sample_queries/q13_7a121.sql 1.2103393077850342
+4 10 1747414707.3075697 sample_queries/q28_13a.sql 0.6699573993682861
+4 11 1747414709.119955 sample_queries/q12_17a.sql 1.8123366832733154
+4 12 1747414715.6908216 sample_queries/q38_2a1870.sql 6.570829391479492
+4 13 1747414722.2178633 sample_queries/q38_2a1870.sql 6.52700400352478
+4 14 1747414723.837095 sample_queries/q15_18a.sql 1.6191940307617188
+4 15 1747414724.555709 sample_queries/q28_13a.sql 0.7185704708099365
+4 16 1747414727.9799643 sample_queries/q2_8a82.sql 3.4242169857025146
+4 17 1747414730.453077 sample_queries/q1_8a463.sql 2.4730758666992188
+4 18 1747414731.553662 sample_queries/q4_8a122.sql 1.1005489826202393
+4 19 1747414732.551328 sample_queries/q25_13d.sql 0.9976279735565186
+4 20 1747414733.2189088 sample_queries/q18_7a103.sql 0.6675426959991455
+4 21 1747414736.7129846 sample_queries/q2_8a82.sql 3.4940366744995117
+4 22 1747414743.5381505 sample_queries/q37_2a1291.sql 6.825111389160156
+4 23 1747414745.7517214 sample_queries/q18_7a103.sql 2.213535785675049
+4 24 1747414748.951199 sample_queries/q21_2a396.sql 3.1994359493255615
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.19256008975207806
+Epoch 15 training loss: 0.012537411053483261
+Epoch 30 training loss: 0.006920064504190189
+Stopped training from convergence condition at epoch 43
+Validation score: 53.390
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.029718951458429416
+Epoch 15 training loss: 0.005544994026422501
+Epoch 30 training loss: 0.003648234808124693
+Epoch 45 training loss: 0.0026660231552541073
+Stopped training from convergence condition at epoch 57
+Validation score: 6.699
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.06716612047265942
+Epoch 15 training loss: 0.005365930751772461
+Stopped training from convergence condition at epoch 29
+Validation score: 29.264
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.07870672722687809
+Epoch 15 training loss: 0.004343515081705935
+Stopped training from convergence condition at epoch 21
+Validation score: 30.893
+Training took 37131 ms
+Best parameters: lr 0.001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+5 0 1747414788.9109807 sample_queries/q9_5a48.sql 1.419074296951294
+5 1 1747414789.687099 sample_queries/q33_2a156.sql 0.7760787010192871
+5 2 1747414793.0693328 sample_queries/q26_2a274.sql 3.382195234298706
+5 3 1747414793.1338215 sample_queries/q29_6e.sql 0.06445074081420898
+5 4 1747414795.9705722 sample_queries/q14_6a349.sql 2.8367116451263428
+5 5 1747414798.236962 sample_queries/q18_7a103.sql 2.266350507736206
+5 6 1747414800.7797573 sample_queries/q22_8a27.sql 2.542757511138916
+5 7 1747414801.3736885 sample_queries/q31_2a39.sql 0.5938925743103027
+5 8 1747414808.4506955 sample_queries/q19_2a471.sql 7.07697057723999
+5 9 1747414810.8311837 sample_queries/q18_7a103.sql 2.3804502487182617
+5 10 1747414812.642691 sample_queries/q12_17a.sql 1.8114590644836426
+5 11 1747414813.4062183 sample_queries/q33_2a156.sql 0.7634916305541992
+5 12 1747414818.7017984 sample_queries/q19_2a471.sql 5.295542001724243
+5 13 1747414821.3885665 sample_queries/q6_16b.sql 2.686729669570923
+5 14 1747414822.483467 sample_queries/q4_8a122.sql 1.0948600769042969
+5 15 1747414824.3211951 sample_queries/q12_17a.sql 1.837679147720337
+5 16 1747414831.2336843 sample_queries/q19_2a471.sql 6.912450313568115
+5 17 1747414832.7844095 sample_queries/q34_1a275.sql 1.5506858825683594
+5 18 1747414835.0255897 sample_queries/q18_7a103.sql 2.241138458251953
+5 19 1747414836.7783244 sample_queries/q15_18a.sql 1.752697229385376
+5 20 1747414838.4499228 sample_queries/q7_7a48.sql 1.6715600490570068
+5 21 1747414840.3717368 sample_queries/q30_18c.sql 1.9217734336853027
+5 22 1747414840.8372312 sample_queries/q27_3c.sql 0.4654662609100342
+5 23 1747414846.2361388 sample_queries/q39_2a2781.sql 5.398869752883911
+5 24 1747414848.4054239 sample_queries/q3_7a99.sql 2.169246196746826
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.14360073364751283
+Epoch 15 training loss: 0.00940135250214574
+Epoch 30 training loss: 0.005313874013873554
+Stopped training from convergence condition at epoch 35
+Validation score: 69.788
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.0750122401256894
+Epoch 15 training loss: 0.005187535101444958
+Epoch 30 training loss: 0.0031824274500290494
+Stopped training from convergence condition at epoch 32
+Validation score: 38.212
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.04522666958333968
+Epoch 15 training loss: 0.004688697756094815
+Stopped training from convergence condition at epoch 27
+Validation score: 44.604
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.02761296345310849
+Epoch 15 training loss: 0.00407901571435464
+Stopped training from convergence condition at epoch 22
+Validation score: 40.070
+Training took 30158 ms
+Best parameters: lr 0.001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+6 0 1747414880.8936377 sample_queries/q17_7a164.sql 0.8660769462585449
+6 1 1747414882.0530243 sample_queries/q13_7a121.sql 1.159346103668213
+6 2 1747414885.0939248 sample_queries/q26_2a274.sql 3.040853500366211
+6 3 1747414886.0957544 sample_queries/q25_13d.sql 1.0017902851104736
+6 4 1747414886.3675494 sample_queries/q27_3c.sql 0.2717556953430176
+6 5 1747414897.799971 sample_queries/q37_2a1291.sql 11.43235731124878
+6 6 1747414899.2605925 sample_queries/q34_1a275.sql 1.4605746269226074
+6 7 1747414902.2766795 sample_queries/q9_5a48.sql 3.0160467624664307
+6 8 1747414903.3548052 sample_queries/q13_7a121.sql 1.078087568283081
+6 9 1747414902.782037 sample_queries/q25_13d.sql -0.5728092193603516
+6 10 1747414905.3977752 sample_queries/q22_8a27.sql 2.6157007217407227
+6 11 1747414906.5226843 sample_queries/q4_8a122.sql 1.1248724460601807
+6 12 1747414918.2157156 sample_queries/q19_2a471.sql 11.69299030303955
+6 13 1747414919.0567095 sample_queries/q17_7a164.sql 0.8409202098846436
+6 14 1747414922.1114564 sample_queries/q26_2a274.sql 3.0546905994415283
+6 15 1747414923.1029272 sample_queries/q25_13d.sql 0.9914298057556152
+6 16 1747414923.2976272 sample_queries/q20_24b.sql 0.19465899467468262
+6 17 1747414933.8954856 sample_queries/q19_2a471.sql 10.597818374633789
+6 18 1747414936.7752979 sample_queries/q6_16b.sql 2.879767894744873
+6 19 1747414939.9939587 sample_queries/q26_2a274.sql 3.2186176776885986
+6 20 1747414941.1575818 sample_queries/q4_8a122.sql 1.1635816097259521
+6 21 1747414943.1963937 sample_queries/q30_18c.sql 2.038771152496338
+6 22 1747414945.1823106 sample_queries/q12_17a.sql 1.9858758449554443
+6 23 1747414948.2986546 sample_queries/q9_5a48.sql 3.1162991523742676
+6 24 1747414959.2194674 sample_queries/q40_2a8120.sql 10.920762538909912
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.13249880078629675
+Epoch 15 training loss: 0.006749797506596555
+Epoch 30 training loss: 0.0052361657144501805
+Stopped training from convergence condition at epoch 36
+Validation score: 7.330
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.07785995650655506
+Epoch 15 training loss: 0.004508163310343993
+Epoch 30 training loss: 0.0036773776545570317
+Stopped training from convergence condition at epoch 37
+Validation score: 3.183
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.024181075976230204
+Epoch 15 training loss: 0.004141060048079287
+Stopped training from convergence condition at epoch 20
+Validation score: 3.815
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.02277567057700997
+Epoch 15 training loss: 0.004328777591581456
+Stopped training from convergence condition at epoch 23
+Validation score: 2.600
+Training took 30037 ms
+Best parameters: lr 0.0001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+7 0 1747414993.0413115 sample_queries/q8_6a505.sql 2.304175853729248
+7 1 1747414994.4234257 sample_queries/q7_7a48.sql 1.3820748329162598
+7 2 1747415001.2536106 sample_queries/q40_2a8120.sql 6.830143690109253
+7 3 1747415002.1089969 sample_queries/q16_26c.sql 0.8553438186645508
+7 4 1747415002.802761 sample_queries/q28_13a.sql 0.6937170028686523
+7 5 1747415005.1034043 sample_queries/q18_7a103.sql 2.300602912902832
+7 6 1747415006.1173918 sample_queries/q25_13d.sql 1.0139448642730713
+7 7 1747415007.9906843 sample_queries/q12_17a.sql 1.873255968093872
+7 8 1747415008.206609 sample_queries/q24_32a.sql 0.21588778495788574
+7 9 1747415011.2030988 sample_queries/q9_5a48.sql 2.9964537620544434
+7 10 1747415013.6126177 sample_queries/q1_8a463.sql 2.409477949142456
+7 11 1747415018.1832838 sample_queries/q39_2a2781.sql 4.570624589920044
+7 12 1747415018.4539278 sample_queries/q27_3c.sql 0.27060437202453613
+7 13 1747415019.4186165 sample_queries/q25_13d.sql 0.964648962020874
+7 14 1747415021.7073228 sample_queries/q8_6a505.sql 2.2886619567871094
+7 15 1747415024.7327762 sample_queries/q9_5a48.sql 3.0254154205322266
+7 16 1747415026.6391127 sample_queries/q30_18c.sql 1.9062976837158203
+7 17 1747415029.9201071 sample_queries/q36_7a136.sql 3.2809526920318604
+7 18 1747415030.8670013 sample_queries/q16_26c.sql 0.946843147277832
+7 19 1747415031.06452 sample_queries/q20_24b.sql 0.19746947288513184
+7 20 1747415033.3522692 sample_queries/q8_6a505.sql 2.2877097129821777
+7 21 1747415033.9763808 sample_queries/q31_2a39.sql 0.6240723133087158
+7 22 1747415037.5201266 sample_queries/q2_8a82.sql 3.5437052249908447
+7 23 1747415044.782174 sample_queries/q37_2a1291.sql 7.2620062828063965
+7 24 1747415045.0842867 sample_queries/q12_17a.sql 0.30207276344299316
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.06798884776704338
+Epoch 15 training loss: 0.008086338426674838
+Epoch 30 training loss: 0.006241159814754096
+Epoch 45 training loss: 0.0022508954881113427
+Stopped training from convergence condition at epoch 54
+Validation score: 25.001
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.04770232692522847
+Epoch 15 training loss: 0.005006522812080853
+Stopped training from convergence condition at epoch 26
+Validation score: 4.871
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.028620363726867767
+Epoch 15 training loss: 0.0039404690576939965
+Stopped training from convergence condition at epoch 26
+Validation score: 6.312
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.043452933612886976
+Epoch 15 training loss: 0.004117376066025589
+Stopped training from convergence condition at epoch 23
+Validation score: 6.530
+Training took 36774 ms
+Best parameters: lr 0.001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+8 0 1747415083.9108918 sample_queries/q31_2a39.sql 0.5958552360534668
+8 1 1747415083.9786224 sample_queries/q29_6e.sql 0.06769037246704102
+8 2 1747415085.1238985 sample_queries/q4_8a122.sql 1.1452388763427734
+8 3 1747415085.9323921 sample_queries/q16_26c.sql 0.8084533214569092
+8 4 1747415088.308929 sample_queries/q8_6a505.sql 2.376495599746704
+8 5 1747415089.382433 sample_queries/q13_7a121.sql 1.07346773147583
+8 6 1747415090.216316 sample_queries/q17_7a164.sql 0.8338427543640137
+8 7 1747415090.8730562 sample_queries/q31_2a39.sql 0.6567034721374512
+8 8 1747415092.654194 sample_queries/q35_1a1508.sql 1.781087875366211
+8 9 1747415099.6179085 sample_queries/q19_2a471.sql 6.963671445846558
+8 10 1747415102.81123 sample_queries/q14_6a349.sql 3.1932826042175293
+8 11 1747415103.5472054 sample_queries/q5_8a423.sql 0.735936164855957
+8 12 1747415110.4896445 sample_queries/q19_2a471.sql 6.942400693893433
+8 13 1747415111.1081445 sample_queries/q31_2a39.sql 0.6184532642364502
+8 14 1747415111.3711264 sample_queries/q32_2a493.sql 0.26294541358947754
+8 15 1747415112.3689234 sample_queries/q25_13d.sql 0.9977598190307617
+8 16 1747415113.045262 sample_queries/q31_2a39.sql 0.6762988567352295
+8 17 1747415113.115153 sample_queries/q29_6e.sql 0.06985163688659668
+8 18 1747415114.7776792 sample_queries/q7_7a48.sql 1.6624767780303955
+8 19 1747415117.052608 sample_queries/q18_7a103.sql 2.2748851776123047
+8 20 1747415120.353216 sample_queries/q36_7a136.sql 3.3005595207214355
+8 21 1747415127.378859 sample_queries/q19_2a471.sql 7.0255982875823975
+8 22 1747415127.5934534 sample_queries/q24_32a.sql 0.2145540714263916
+8 23 1747415129.1182866 sample_queries/q34_1a275.sql 1.5247936248779297
+8 24 1747415129.312539 sample_queries/q20_24b.sql 0.1942145824432373
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.07814987366424596
+Epoch 15 training loss: 0.011178023999239853
+Epoch 30 training loss: 0.0060670020187551035
+Stopped training from convergence condition at epoch 42
+Validation score: 28.484
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.056685907508623096
+Epoch 15 training loss: 0.004227176251662697
+Stopped training from convergence condition at epoch 28
+Validation score: 29.873
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.02855034141821113
+Epoch 15 training loss: 0.004000578088031963
+Epoch 30 training loss: 0.0034821190109025645
+Stopped training from convergence condition at epoch 32
+Validation score: 34.798
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.0255801947093866
+Epoch 15 training loss: 0.0041512124310990675
+Stopped training from convergence condition at epoch 20
+Validation score: 22.092
+Training took 34244 ms
+Best parameters: lr 0.0001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+9 0 1747415165.462799 sample_queries/q21_2a396.sql 0.49639391899108887
+9 1 1747415172.0995128 sample_queries/q38_2a1870.sql 6.636677265167236
+9 2 1747415173.9975686 sample_queries/q12_17a.sql 1.8980169296264648
+9 3 1747415174.2742443 sample_queries/q27_3c.sql 0.27663421630859375
+9 4 1747415177.2734005 sample_queries/q9_5a48.sql 2.9991166591644287
+9 5 1747415180.2737634 sample_queries/q9_5a48.sql 3.0003228187561035
+9 6 1747415182.1043286 sample_queries/q12_17a.sql 1.8305280208587646
+9 7 1747415184.4890418 sample_queries/q18_7a103.sql 2.3846755027770996
+9 8 1747415186.970495 sample_queries/q1_8a463.sql 2.481412410736084
+9 9 1747415188.3614743 sample_queries/q7_7a48.sql 1.3909411430358887
+9 10 1747415188.991534 sample_queries/q5_8a423.sql 0.6300156116485596
+9 11 1747415191.1360781 sample_queries/q5_8a423.sql 2.1445059776306152
+9 12 1747415193.7627017 sample_queries/q23_19d.sql 2.6265857219696045
+9 13 1747415194.5597687 sample_queries/q16_26c.sql 0.7970294952392578
+9 14 1747415201.5820007 sample_queries/q40_2a8120.sql 7.022185802459717
+9 15 1747415204.9020052 sample_queries/q36_7a136.sql 3.319948673248291
+9 16 1747415205.17051 sample_queries/q32_2a493.sql 0.2684669494628906
+9 17 1747415208.1351926 sample_queries/q9_5a48.sql 2.9646434783935547
+9 18 1747415209.6285596 sample_queries/q34_1a275.sql 1.4933273792266846
+9 19 1747415213.2808325 sample_queries/q10_2a265.sql 3.6522345542907715
+9 20 1747415216.2913852 sample_queries/q3_7a99.sql 3.0105159282684326
+9 21 1747415216.4793284 sample_queries/q20_24b.sql 0.18790006637573242
+9 22 1747415216.3140197 sample_queries/q34_1a275.sql -0.1653590202331543
+9 23 1747415217.9873004 sample_queries/q7_7a48.sql 1.6732299327850342
+9 24 1747415219.7002006 sample_queries/q15_18a.sql 1.7128582000732422
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.10506249603112133
+Epoch 15 training loss: 0.006719480715311912
+Epoch 30 training loss: 0.00924348218214451
+Stopped training from convergence condition at epoch 31
+Validation score: 13.483
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.04191785315241741
+Epoch 15 training loss: 0.004888260823482059
+Stopped training from convergence condition at epoch 27
+Validation score: 2.550
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.03578021302249054
+Epoch 15 training loss: 0.004227415567064392
+Stopped training from convergence condition at epoch 24
+Validation score: 4.758
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.02750940157613736
+Stopped training from convergence condition at epoch 14
+Validation score: 19.264
+Training took 29481 ms
+Best parameters: lr 0.001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+10 0 1747415253.506737 sample_queries/q14_6a349.sql 2.8314459323883057
+10 1 1747415256.294614 sample_queries/q14_6a349.sql 2.7878358364105225
+10 2 1747415258.3449636 sample_queries/q30_18c.sql 2.0503084659576416
+10 3 1747415260.8156133 sample_queries/q1_8a463.sql 2.470607280731201
+10 4 1747415261.084801 sample_queries/q32_2a493.sql 0.2691516876220703
+10 5 1747415264.2697086 sample_queries/q36_7a136.sql 3.1848695278167725
+10 6 1747415266.545755 sample_queries/q18_7a103.sql 2.2760074138641357
+10 7 1747415267.305763 sample_queries/q33_2a156.sql 0.7599704265594482
+10 8 1747415269.8716726 sample_queries/q1_8a463.sql 2.5658724308013916
+10 9 1747415270.5588176 sample_queries/q28_13a.sql 0.6871068477630615
+10 10 1747415273.2535536 sample_queries/q6_16b.sql 2.6946702003479004
+10 11 1747415278.7168841 sample_queries/q40_2a8120.sql 5.463292360305786
+10 12 1747415279.8117619 sample_queries/q13_7a121.sql 1.0948383808135986
+10 13 1747415280.7960756 sample_queries/q25_13d.sql 0.9842727184295654
+10 14 1747415280.986921 sample_queries/q20_24b.sql 0.19080758094787598
+10 15 1747415284.5880594 sample_queries/q10_2a265.sql 3.6010968685150146
+10 16 1747415291.2686431 sample_queries/q38_2a1870.sql 6.680546283721924
+10 17 1747415291.997437 sample_queries/q33_2a156.sql 0.728754997253418
+10 18 1747415294.522027 sample_queries/q1_8a463.sql 2.5245532989501953
+10 19 1747415301.2693543 sample_queries/q37_2a1291.sql 6.747291088104248
+10 20 1747415301.6436818 sample_queries/q30_18c.sql 0.37428927421569824
+10 21 1747415304.6053786 sample_queries/q26_2a274.sql 2.9616568088531494
+10 22 1747415308.213162 sample_queries/q10_2a265.sql 3.60774564743042
+10 23 1747415309.292255 sample_queries/q13_7a121.sql 1.0790560245513916
+10 24 1747415311.2978044 sample_queries/q5_8a423.sql 2.0055112838745117
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.07522352689877153
+Epoch 15 training loss: 0.004780008595553227
+Epoch 30 training loss: 0.004511777720181271
+Stopped training from convergence condition at epoch 41
+Validation score: 6.175
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.05010423697531223
+Epoch 15 training loss: 0.00452613333472982
+Stopped training from convergence condition at epoch 28
+Validation score: 5.002
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.03595904966816306
+Epoch 15 training loss: 0.0039296378137078135
+Epoch 30 training loss: 0.0024998387548839673
+Epoch 45 training loss: 0.002652938479441218
+Stopped training from convergence condition at epoch 47
+Validation score: 4.066
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.12672340435907245
+Epoch 15 training loss: 0.0044563157437369225
+Stopped training from convergence condition at epoch 25
+Validation score: 3.238
+Training took 43617 ms
+Best parameters: lr 0.0001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+11 0 1747415359.1267428 sample_queries/q6_16b.sql 2.7388081550598145
+11 1 1747415361.660124 sample_queries/q2_8a82.sql 2.5333430767059326
+11 2 1747415368.5947943 sample_queries/q40_2a8120.sql 6.934624195098877
+11 3 1747415369.1966383 sample_queries/q31_2a39.sql 0.6018052101135254
+11 4 1747415370.9205532 sample_queries/q15_18a.sql 1.7238757610321045
+11 5 1747415372.6269093 sample_queries/q15_18a.sql 1.706315517425537
+11 6 1747415376.0646987 sample_queries/q21_2a396.sql 3.437748670578003
+11 7 1747415378.2915277 sample_queries/q5_8a423.sql 2.226790189743042
+11 8 1747415384.478485 sample_queries/q39_2a2781.sql 6.186917066574097
+11 9 1747415385.5900269 sample_queries/q4_8a122.sql 1.1115024089813232
+11 10 1747415387.059837 sample_queries/q5_8a423.sql 1.4697651863098145
+11 11 1747415388.4537978 sample_queries/q18_7a103.sql 1.3939223289489746
+11 12 1747415395.3374758 sample_queries/q19_2a471.sql 6.883638620376587
+11 13 1747415398.150256 sample_queries/q14_6a349.sql 2.81274151802063
+11 14 1747415404.1200109 sample_queries/q39_2a2781.sql 5.9697160720825195
+11 15 1747415406.3014143 sample_queries/q5_8a423.sql 2.1813666820526123
+11 16 1747415407.2819266 sample_queries/q25_13d.sql 0.9804682731628418
+11 17 1747415407.5463815 sample_queries/q32_2a493.sql 0.26439642906188965
+11 18 1747415408.4045107 sample_queries/q16_26c.sql 0.8580915927886963
+11 19 1747415409.7589157 sample_queries/q7_7a48.sql 1.3543426990509033
+11 20 1747415410.899096 sample_queries/q4_8a122.sql 1.1401422023773193
+11 21 1747415413.8873053 sample_queries/q9_5a48.sql 2.9881715774536133
+11 22 1747415415.38372 sample_queries/q3_7a99.sql 1.4963757991790771
+11 23 1747415417.59046 sample_queries/q5_8a423.sql 2.2067010402679443
+11 24 1747415421.3242774 sample_queries/q10_2a265.sql 3.7337777614593506
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.07899743230798496
+Epoch 15 training loss: 0.007614660721558791
+Epoch 30 training loss: 0.0042188450573191335
+Stopped training from convergence condition at epoch 39
+Validation score: 40.951
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.045538090653001115
+Epoch 15 training loss: 0.004033381261531479
+Stopped training from convergence condition at epoch 23
+Validation score: 31.365
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.054072438103433415
+Epoch 15 training loss: 0.0040482439373870594
+Stopped training from convergence condition at epoch 18
+Validation score: 19.822
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.1334996284164775
+Epoch 15 training loss: 0.004247990272303399
+Stopped training from convergence condition at epoch 23
+Validation score: 16.889
+Training took 33552 ms
+Best parameters: lr 0.0001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+12 0 1747415463.4472215 sample_queries/q37_2a1291.sql 7.107718229293823
+12 1 1747415466.000205 sample_queries/q22_8a27.sql 2.5529425144195557
+12 2 1747415467.7726493 sample_queries/q7_7a48.sql 1.7724056243896484
+12 3 1747415470.7881644 sample_queries/q3_7a99.sql 3.015479326248169
+12 4 1747415471.9462185 sample_queries/q4_8a122.sql 1.1580166816711426
+12 5 1747415473.4997997 sample_queries/q3_7a99.sql 1.553530216217041
+12 6 1747415475.9683797 sample_queries/q1_8a463.sql 2.4685423374176025
+12 7 1747415482.2491007 sample_queries/q39_2a2781.sql 6.280680894851685
+12 8 1747415485.4335153 sample_queries/q14_6a349.sql 3.184366226196289
+12 9 1747415486.565128 sample_queries/q4_8a122.sql 1.1315665245056152
+12 10 1747415487.5980752 sample_queries/q4_8a122.sql 1.0329062938690186
+12 11 1747415489.8392622 sample_queries/q18_7a103.sql 2.24114990234375
+12 12 1747415493.3482695 sample_queries/q3_7a99.sql 3.5089616775512695
+12 13 1747415493.6401541 sample_queries/q27_3c.sql 0.2918415069580078
+12 14 1747415494.137891 sample_queries/q21_2a396.sql 0.49770092964172363
+12 15 1747415500.3565195 sample_queries/q39_2a2781.sql 6.218590497970581
+12 16 1747415505.6310635 sample_queries/q19_2a471.sql 5.274506568908691
+12 17 1747415509.2799003 sample_queries/q10_2a265.sql 3.6487977504730225
+12 18 1747415510.1210861 sample_queries/q17_7a164.sql 0.8411450386047363
+12 19 1747415512.720222 sample_queries/q22_8a27.sql 2.5990943908691406
+12 20 1747415513.8028126 sample_queries/q4_8a122.sql 1.082563877105713
+12 21 1747415516.0725808 sample_queries/q8_6a505.sql 2.2697322368621826
+12 22 1747415516.260488 sample_queries/q20_24b.sql 0.18785691261291504
+12 23 1747415516.9975076 sample_queries/q33_2a156.sql 0.7369804382324219
+12 24 1747415517.207032 sample_queries/q24_32a.sql 0.2094862461090088
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.06798810629105126
+Epoch 15 training loss: 0.006280430674518424
+Stopped training from convergence condition at epoch 25
+Validation score: 35.790
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.06525353358894656
+Epoch 15 training loss: 0.004123802780264264
+Epoch 30 training loss: 0.002666123658518363
+Epoch 45 training loss: 0.001721942387693734
+Stopped training from convergence condition at epoch 57
+Validation score: 22.460
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.023309503979463544
+Epoch 15 training loss: 0.004558967822824208
+Stopped training from convergence condition at epoch 20
+Validation score: 25.812
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.05310309997380332
+Epoch 15 training loss: 0.0038422508320460715
+Stopped training from convergence condition at epoch 26
+Validation score: 22.120
+Training took 40879 ms
+Best parameters: lr 0.0001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+13 0 1747415562.5089295 sample_queries/q9_5a48.sql 2.9832894802093506
+13 1 1747415566.0170414 sample_queries/q2_8a82.sql 3.508070707321167
+13 2 1747415567.7114716 sample_queries/q7_7a48.sql 1.6943719387054443
+13 3 1747415570.4657419 sample_queries/q14_6a349.sql 2.754229784011841
+13 4 1747415572.8027017 sample_queries/q8_6a505.sql 2.336920738220215
+13 5 1747415573.6521108 sample_queries/q17_7a164.sql 0.8493664264678955
+13 6 1747415575.8248253 sample_queries/q8_6a505.sql 2.1726717948913574
+13 7 1747415578.3552759 sample_queries/q1_8a463.sql 2.5304102897644043
+13 8 1747415581.18046 sample_queries/q14_6a349.sql 2.8251426219940186
+13 9 1747415584.2273605 sample_queries/q26_2a274.sql 3.0468590259552
+13 10 1747415589.8142688 sample_queries/q37_2a1291.sql 5.586866617202759
+13 11 1747415590.3164072 sample_queries/q21_2a396.sql 0.5020816326141357
+13 12 1747415590.5782485 sample_queries/q32_2a493.sql 0.26180052757263184
+13 13 1747415590.6446788 sample_queries/q29_6e.sql 0.0663900375366211
+13 14 1747415590.860103 sample_queries/q24_32a.sql 0.21538400650024414
+13 15 1747415591.454287 sample_queries/q31_2a39.sql 0.5941441059112549
+13 16 1747415593.9684849 sample_queries/q1_8a463.sql 2.514160394668579
+13 17 1747415597.2477345 sample_queries/q36_7a136.sql 3.279212713241577
+13 18 1747415600.9162037 sample_queries/q10_2a265.sql 3.668428897857666
+13 19 1747415602.593767 sample_queries/q7_7a48.sql 1.6775217056274414
+13 20 1747415606.0642486 sample_queries/q2_8a82.sql 3.4704408645629883
+13 21 1747415609.2808099 sample_queries/q36_7a136.sql 3.2165210247039795
+13 22 1747415614.7333565 sample_queries/q37_2a1291.sql 5.452507972717285
+13 23 1747415616.2543392 sample_queries/q34_1a275.sql 1.5209417343139648
+13 24 1747415619.389139 sample_queries/q23_19d.sql 3.1347599029541016
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.07855235339904373
+Epoch 15 training loss: 0.008330840606835078
+Epoch 30 training loss: 0.004521294512828304
+Stopped training from convergence condition at epoch 30
+Validation score: 30.166
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.037426169064234606
+Epoch 15 training loss: 0.0038019120470959354
+Epoch 30 training loss: 0.0026241082756314426
+Epoch 45 training loss: 0.0008706012972238982
+Stopped training from convergence condition at epoch 51
+Validation score: 1.854
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.023899045882915908
+Epoch 15 training loss: 0.003897200484590774
+Stopped training from convergence condition at epoch 26
+Validation score: 15.301
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.017781991771930322
+Epoch 15 training loss: 0.0034882333563556046
+Stopped training from convergence condition at epoch 24
+Validation score: 11.477
+Training took 44454 ms
+Best parameters: lr 0.001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+14 0 1747415667.1329312 sample_queries/q12_17a.sql 1.8558690547943115
+14 1 1747415668.6082397 sample_queries/q34_1a275.sql 1.4752566814422607
+14 2 1747415671.141381 sample_queries/q22_8a27.sql 2.533097743988037
+14 3 1747415671.6584907 sample_queries/q21_2a396.sql 0.5170724391937256
+14 4 1747415677.120991 sample_queries/q40_2a8120.sql 5.462449789047241
+14 5 1747415680.4200268 sample_queries/q36_7a136.sql 3.2989978790283203
+14 6 1747415680.9293792 sample_queries/q21_2a396.sql 0.5093128681182861
+14 7 1747415681.4501595 sample_queries/q21_2a396.sql 0.5207347869873047
+14 8 1747415682.4457815 sample_queries/q25_13d.sql 0.9955744743347168
+14 9 1747415683.401217 sample_queries/q25_13d.sql 0.955394983291626
+14 10 1747415683.589864 sample_queries/q20_24b.sql 0.18860840797424316
+14 11 1747415685.2760317 sample_queries/q15_18a.sql 1.686128854751587
+14 12 1747415686.2472885 sample_queries/q25_13d.sql 0.9712164402008057
+14 13 1747415687.9137025 sample_queries/q7_7a48.sql 1.6663744449615479
+14 14 1747415689.7098846 sample_queries/q35_1a1508.sql 1.796130895614624
+14 15 1747415692.421621 sample_queries/q6_16b.sql 2.7116949558258057
+14 16 1747415692.687236 sample_queries/q32_2a493.sql 0.26556897163391113
+14 17 1747415693.1838949 sample_queries/q21_2a396.sql 0.49662303924560547
+14 18 1747415696.6463962 sample_queries/q2_8a82.sql 3.462463855743408
+14 19 1747415698.0649655 sample_queries/q10_2a265.sql 1.4185307025909424
+14 20 1747415698.26443 sample_queries/q20_24b.sql 0.1994161605834961
+14 21 1747415699.829319 sample_queries/q26_2a274.sql 1.5648493766784668
+14 22 1747415700.42014 sample_queries/q31_2a39.sql 0.5907764434814453
+14 23 1747415701.8861322 sample_queries/q34_1a275.sql 1.4659502506256104
+14 24 1747415702.1582806 sample_queries/q27_3c.sql 0.27210235595703125
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.0997835933966072
+Epoch 15 training loss: 0.006948415514718937
+Stopped training from convergence condition at epoch 23
+Validation score: 9.064
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.07599440444947074
+Epoch 15 training loss: 0.004636806146887115
+Epoch 30 training loss: 0.003294921318771677
+Epoch 45 training loss: 0.0011676748038377824
+Stopped training from convergence condition at epoch 50
+Validation score: 0.293
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.07456031075695105
+Epoch 15 training loss: 0.004908823152379084
+Epoch 30 training loss: 0.003489280132303145
+Stopped training from convergence condition at epoch 30
+Validation score: 3.091
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.04803602203007853
+Epoch 15 training loss: 0.0038820834281004706
+Stopped training from convergence condition at epoch 27
+Validation score: 2.167
+Training took 44905 ms
+Best parameters: lr 0.001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+15 0 1747415751.4210134 sample_queries/q26_2a274.sql 2.9315645694732666
+15 1 1747415753.686713 sample_queries/q18_7a103.sql 2.265658378601074
+15 2 1747415753.951873 sample_queries/q27_3c.sql 0.2651183605194092
+15 3 1747415756.721741 sample_queries/q6_16b.sql 2.769819498062134
+15 4 1747415761.4824126 sample_queries/q39_2a2781.sql 4.760631084442139
+15 5 1747415762.3619473 sample_queries/q16_26c.sql 0.8794963359832764
+15 6 1747415763.4682922 sample_queries/q13_7a121.sql 1.1063036918640137
+15 7 1747415763.536239 sample_queries/q29_6e.sql 0.06790637969970703
+15 8 1747415764.296743 sample_queries/q33_2a156.sql 0.7604644298553467
+15 9 1747415766.9142387 sample_queries/q22_8a27.sql 2.6174557209014893
+15 10 1747415769.9949803 sample_queries/q3_7a99.sql 3.0806941986083984
+15 11 1747415776.6806667 sample_queries/q38_2a1870.sql 6.685642957687378
+15 12 1747415778.207861 sample_queries/q34_1a275.sql 1.5271546840667725
+15 13 1747415780.4702418 sample_queries/q18_7a103.sql 2.2623393535614014
+15 14 1747415781.3097024 sample_queries/q17_7a164.sql 0.8394205570220947
+15 15 1747415782.7696383 sample_queries/q10_2a265.sql 1.4598972797393799
+15 16 1747415788.1758754 sample_queries/q19_2a471.sql 5.406195163726807
+15 17 1747415788.907613 sample_queries/q28_13a.sql 0.731698751449585
+15 18 1747415795.557453 sample_queries/q40_2a8120.sql 6.649801015853882
+15 19 1747415797.3861449 sample_queries/q12_17a.sql 1.8286547660827637
+15 20 1747415798.3586953 sample_queries/q25_13d.sql 0.9725124835968018
+15 21 1747415799.0927315 sample_queries/q33_2a156.sql 0.7339985370635986
+15 22 1747415799.9161463 sample_queries/q17_7a164.sql 0.8233766555786133
+15 23 1747415801.719371 sample_queries/q35_1a1508.sql 1.8031868934631348
+15 24 1747415802.3864076 sample_queries/q28_13a.sql 0.6669905185699463
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.08000241189488563
+Epoch 15 training loss: 0.01101709188540177
+Epoch 30 training loss: 0.004513451306687282
+Stopped training from convergence condition at epoch 41
+Validation score: 34.331
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.06248683037621708
+Epoch 15 training loss: 0.00437041848661089
+Epoch 30 training loss: 0.0036612673540166096
+Epoch 45 training loss: 0.0018387355717252299
+Stopped training from convergence condition at epoch 53
+Validation score: 9.633
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.05062607928693037
+Epoch 15 training loss: 0.004568554162437193
+Epoch 30 training loss: 0.004123238547592713
+Epoch 45 training loss: 0.0014377976604636983
+Epoch 60 training loss: 0.0011000455119285796
+Stopped training from convergence condition at epoch 60
+Validation score: 9.107
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.020245322114627422
+Epoch 15 training loss: 0.004415932085349
+Stopped training from convergence condition at epoch 25
+Validation score: 28.168
+Training took 61511 ms
+Best parameters: lr 0.0005
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+16 0 1747415870.7620149 sample_queries/q19_2a471.sql 5.402980327606201
+16 1 1747415872.2415512 sample_queries/q34_1a275.sql 1.4794988632202148
+16 2 1747415873.6725118 sample_queries/q10_2a265.sql 1.430922031402588
+16 3 1747415880.211397 sample_queries/q38_2a1870.sql 6.538846254348755
+16 4 1747415886.7448008 sample_queries/q38_2a1870.sql 6.533365964889526
+16 5 1747415889.5927782 sample_queries/q14_6a349.sql 2.8479387760162354
+16 6 1747415892.592146 sample_queries/q26_2a274.sql 2.9993295669555664
+16 7 1747415893.4723756 sample_queries/q17_7a164.sql 0.880190372467041
+16 8 1747415895.8496318 sample_queries/q8_6a505.sql 2.377211093902588
+16 9 1747415895.915498 sample_queries/q29_6e.sql 0.0658259391784668
+16 10 1747415897.7926548 sample_queries/q12_17a.sql 1.8771090507507324
+16 11 1747415903.4454594 sample_queries/q19_2a471.sql 5.652728319168091
+16 12 1747415910.1378736 sample_queries/q40_2a8120.sql 6.692375659942627
+16 13 1747415910.4048917 sample_queries/q27_3c.sql 0.2669808864593506
+16 14 1747415913.4338794 sample_queries/q3_7a99.sql 3.0289506912231445
+16 15 1747415914.945907 sample_queries/q34_1a275.sql 1.5119879245758057
+16 16 1747415917.9094453 sample_queries/q9_5a48.sql 2.9634885787963867
+16 17 1747415918.5160654 sample_queries/q31_2a39.sql 0.6065831184387207
+16 18 1747415920.7798467 sample_queries/q8_6a505.sql 2.2637293338775635
+16 19 1747415922.7801201 sample_queries/q5_8a423.sql 2.0002174377441406
+16 20 1747415923.0587525 sample_queries/q32_2a493.sql 0.2785961627960205
+16 21 1747415927.76246 sample_queries/q36_7a136.sql 4.703667879104614
+16 22 1747415927.8263848 sample_queries/q29_6e.sql 0.06388378143310547
+16 23 1747415933.2420602 sample_queries/q40_2a8120.sql 5.415633916854858
+16 24 1747415936.737378 sample_queries/q2_8a82.sql 3.4952783584594727
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.07563432132204374
+Epoch 15 training loss: 0.01136431775521487
+Epoch 30 training loss: 0.005440582681330852
+Epoch 45 training loss: 0.003757728044486915
+Epoch 60 training loss: 0.0017655129321307564
+Stopped training from convergence condition at epoch 68
+Validation score: 84.364
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.04810909041358779
+Epoch 15 training loss: 0.004496184484257052
+Epoch 30 training loss: 0.0033900094960699787
+Epoch 45 training loss: 0.0011367077101264538
+Stopped training from convergence condition at epoch 46
+Validation score: 4.086
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.04486898893956095
+Epoch 15 training loss: 0.004830580169800669
+Epoch 30 training loss: 0.003322992103251939
+Epoch 45 training loss: 0.0013683157587365713
+Stopped training from convergence condition at epoch 55
+Validation score: 5.599
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.11441285640466958
+Epoch 15 training loss: 0.004304497034172528
+Epoch 30 training loss: 0.0035511990077793597
+Stopped training from convergence condition at epoch 41
+Validation score: 2.763
+Training took 76330 ms
+Best parameters: lr 0.0001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+17 0 1747416015.004095 sample_queries/q5_8a423.sql 1.935457706451416
+17 1 1747416026.2791197 sample_queries/q37_2a1291.sql 11.274986505508423
+17 2 1747416026.5391338 sample_queries/q27_3c.sql 0.25997471809387207
+17 3 1747416029.0561018 sample_queries/q1_8a463.sql 2.5169293880462646
+17 4 1747416035.8440313 sample_queries/q19_2a471.sql 6.787889003753662
+17 5 1747416036.5704792 sample_queries/q33_2a156.sql 0.7264082431793213
+17 6 1747416041.6129887 sample_queries/q38_2a1870.sql 5.042471647262573
+17 7 1747416041.6781082 sample_queries/q29_6e.sql 0.06508231163024902
+17 8 1747416042.3681633 sample_queries/q33_2a156.sql 0.6900124549865723
+17 9 1747416044.830989 sample_queries/q1_8a463.sql 2.462785243988037
+17 10 1747416045.8895845 sample_queries/q13_7a121.sql 1.0585505962371826
+17 11 1747416046.0795908 sample_queries/q20_24b.sql 0.18994474411010742
+17 12 1747416048.5463598 sample_queries/q1_8a463.sql 2.4667282104492188
+17 13 1747416051.7517138 sample_queries/q21_2a396.sql 3.2053143978118896
+17 14 1747416055.2114222 sample_queries/q2_8a82.sql 3.4596645832061768
+17 15 1747416057.0296607 sample_queries/q15_18a.sql 1.8181986808776855
+17 16 1747416063.916638 sample_queries/q19_2a471.sql 6.886936187744141
+17 17 1747416065.6943705 sample_queries/q35_1a1508.sql 1.777693748474121
+17 18 1747416069.0909886 sample_queries/q36_7a136.sql 3.396578550338745
+17 19 1747416070.984258 sample_queries/q12_17a.sql 1.8932301998138428
+17 20 1747416070.5270715 sample_queries/q25_13d.sql -0.4572274684906006
+17 21 1747416073.9644067 sample_queries/q2_8a82.sql 3.4372923374176025
+17 22 1747416075.1030738 sample_queries/q25_13d.sql 1.138620138168335
+17 23 1747416077.280662 sample_queries/q18_7a103.sql 2.177546262741089
+17 24 1747416078.2449555 sample_queries/q25_13d.sql 0.9642448425292969
+Start training Bao
+Learning rate: 0.01
+Initial input channels: 10
+Epoch 0 training loss: 0.11477796595971115
+Epoch 15 training loss: 0.00795685349139156
+Epoch 30 training loss: 0.005330515113185908
+Stopped training from convergence condition at epoch 39
+Validation score: 51.930
+Learning rate: 0.001
+Initial input channels: 10
+Epoch 0 training loss: 0.04023054961237262
+Epoch 15 training loss: 0.004153336414525316
+Epoch 30 training loss: 0.0028774437046567834
+Epoch 45 training loss: 0.0009957653671678645
+Stopped training from convergence condition at epoch 49
+Validation score: 7.566
+Learning rate: 0.0005
+Initial input channels: 10
+Epoch 0 training loss: 0.029096113082754317
+Epoch 15 training loss: 0.004991136350073531
+Epoch 30 training loss: 0.0018603076569575694
+Stopped training from convergence condition at epoch 37
+Validation score: 19.709
+Learning rate: 0.0001
+Initial input channels: 10
+Epoch 0 training loss: 0.029513440625436725
+Epoch 15 training loss: 0.004126623294365852
+Epoch 30 training loss: 0.0031117945704341975
+Stopped training from convergence condition at epoch 32
+Validation score: 11.824
+Training took 57842 ms
+Best parameters: lr 0.001
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+18 0 1747416140.2579207 sample_queries/q6_16b.sql 2.7280566692352295
+18 1 1747416140.8766377 sample_queries/q31_2a39.sql 0.6186745166778564
+18 2 1747416142.7297933 sample_queries/q35_1a1508.sql 1.8531179428100586
+18 3 1747416143.8376248 sample_queries/q4_8a122.sql 1.107788324356079
+18 4 1747416155.412609 sample_queries/q38_2a1870.sql 11.574936151504517
+18 5 1747416155.6214976 sample_queries/q24_32a.sql 0.2088475227355957
+18 6 1747416157.062829 sample_queries/q10_2a265.sql 1.4412965774536133
+18 7 1747416158.2647626 sample_queries/q23_19d.sql 1.2018954753875732
+18 8 1747416169.5606546 sample_queries/q38_2a1870.sql 11.29586410522461
+18 9 1747416170.6394424 sample_queries/q4_8a122.sql 1.0787475109100342
+18 10 1747416172.9903436 sample_queries/q8_6a505.sql 2.3508622646331787
+18 11 1747416174.0147808 sample_queries/q25_13d.sql 1.0243663787841797
+18 12 1747416185.6675916 sample_queries/q37_2a1291.sql 11.652772426605225
+18 13 1747416187.6248453 sample_queries/q2_8a82.sql 1.9572150707244873
+18 14 1747416187.9017234 sample_queries/q32_2a493.sql 0.276841402053833
+18 15 1747416190.065124 sample_queries/q18_7a103.sql 2.163361072540283
+18 16 1747416192.2238233 sample_queries/q18_7a103.sql 2.1586592197418213
+18 17 1747416195.3498664 sample_queries/q26_2a274.sql 3.1260013580322266
+18 18 1747416197.439085 sample_queries/q11_17e.sql 2.0891785621643066
+18 19 1747416199.9788592 sample_queries/q22_8a27.sql 2.539733648300171
+18 20 1747416201.7904308 sample_queries/q35_1a1508.sql 1.811532974243164
+18 21 1747416202.8127913 sample_queries/q25_13d.sql 1.0223205089569092
+18 22 1747416203.7045662 sample_queries/q16_26c.sql 0.8917374610900879
+18 23 1747416203.9753802 sample_queries/q27_3c.sql 0.27077317237854004
+18 24 1747416205.6785827 sample_queries/q15_18a.sql 1.703155755996704
