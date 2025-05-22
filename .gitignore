@@ -5,3 +5,9 @@
 *.blg
 *.log
 *.tps
+*blx*
+*.out
+*.nav
+*.run*
+*.snm
+*.toc
